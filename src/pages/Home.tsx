@@ -14,7 +14,7 @@ export function Home() {
             <Col className="d-flex justify-content-center">
             <Card style={{maxWidth: "800px"}}> 
                 <Card.Body className="d-flex flex-column" style={{textAlign: "center"}}>
-                    <Card.Img style={{height: "200px", width: "200px", alignItems: "center", margin: "auto"}}src="./public/806131.png">
+                    <Card.Img style={{height: "200px", width: "200px", alignItems: "center", margin: "auto"}}src="./806131.png">
                     </Card.Img>
                     <span className="fs-1 mb-2">Tic Tac Toe</span>
                     <span className="fs-3 text-muted mb-2">Challenge your friends to a game of Tic Tac Toe!</span>
