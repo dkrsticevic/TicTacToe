@@ -6,7 +6,7 @@ export function Navbar() {
         <NavbarBS className="border-bottom mb-3" style={{background: "#ffffff"}}>
             <Container>
                 <Nav>
-                    <Nav.Link to="/TicTacToe" as={NavLink} style={{display: "flex", alignItems: "center"}}>
+                    <Nav.Link to="/" as={NavLink} style={{display: "flex", alignItems: "center"}}>
                         <img style={{height: "25px", width: "25px", marginRight: "5px"}}src="./806131.png"></img>
                         <span style={{fontSize: "20px", color: "black"}}>Tic Tac Toe</span>
                     </Nav.Link>
