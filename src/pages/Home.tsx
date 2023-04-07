@@ -1,4 +1,4 @@
-import { Button, Card, Col, Container, Row } from "react-bootstrap"
+import { Button, Card, Col, Container } from "react-bootstrap"
 import {useNavigate} from "react-router-dom"
 
 export function Home() {
