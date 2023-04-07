@@ -4,7 +4,7 @@ import {useSearchParams} from 'react-router-dom'
 import { io, Socket } from "socket.io-client"
 import { Game } from "../components/Game"
 
-const URL = "http://localhost:3001"
+const URL = "https://river-autumn-383006.ts.r.appspot.com"
 const socket = io(URL);
 
 
