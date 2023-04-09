@@ -4,7 +4,7 @@ import {useSearchParams} from 'react-router-dom'
 import { io, Socket } from "socket.io-client"
 import { Game } from "../components/Game"
 
-const URL = "https://quartz-ripple-study.glitch.me:3001"//"http://127.0.0.1:3001" //"https://river-autumn-383006.ts.r.appspot.com:3001"
+const URL = "wss://overjoyed-wood-cave.glitch.me"
 const socket = io(URL);
 
 
@@ -12,7 +12,7 @@ export function Room() {
     const [queryParams] = useSearchParams();
     const room = queryParams.get("");
     const [gameReady, setGameReady ] = useState(false);
-    const [error, setError] = useState("")
+    const [error, setError] = useState("Loading...")
 
     useEffect(() => {
       if (room !== "" && room !== null){ 
