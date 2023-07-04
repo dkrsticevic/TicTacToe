@@ -2,7 +2,7 @@
 
 The following website is a functional multiplayer Tic Tac Toe game made in React. To create a lobby simply press the "Create a Room" button. Once loaded, you can invite your friends by sending them the generated URL. From here the game can be started from either player by clicking on the board (whoever plays first move plays as X's). After a game is finished, it can be restarted and played between the same players again.
 
-** Note ** To test the app you may need to wait due to the backend server only booting up when there activity. Also, it can be tested between multiple tabs on the same device. 
+** Note ** To test the app you may need to wait due to the backend server only booting up when there is activity. Also, it can be tested between multiple tabs on the same device. 
 
 ## Client 
 The client side of this application is built in React, it hosts all the logic for the game and establishes a socket connect with the server. Through socket.io rooms can be created 
